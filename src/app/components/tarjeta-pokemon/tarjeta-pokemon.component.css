@@ -1,0 +1,58 @@
+#container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    isolation:isolate;
+    &.seleccionado::before{
+        position: absolute;
+        content: "";
+        width: calc(100% + 8px);
+        left: -4px;
+        background-color: #e63946;
+        height: 70px;
+        z-index: -1;
+        border-radius: 10px;
+    }
+}
+
+
+#tarjeta{
+    display: flex;
+    align-items: center;
+    background-color: #fcbf49;
+    border-radius: 25px 5px 5px 25px;
+    width: 100%;
+    font-size: large;
+    padding-left: 5px;
+    &.seleccionado{
+        background-color: #f7ac18;
+        box-shadow:inset 0px 0px 7px 4px #fceab8;
+        
+    }
+}
+
+#tarjeta:hover{
+    background-color: #f7ac18;
+    cursor: pointer;
+}
+
+
+#circulo{
+    border-radius: 50%;
+    height: 35px;
+    aspect-ratio: 1;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+#flecha{
+    height: 20px;
+    padding: 0px 10px;
+}
+#imagen{
+    height: 45px;
+}
+
+span{
+    padding-left: 10px;
+}
