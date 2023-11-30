@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# PokedexAngular
+diseño de pokedex nintendo 3ds de pokemon realizada con angular y pokeApi.
+>>>>>>> c111e3fa14df784be8722a5cd5f1e0d5b693efcb
